@@ -45,6 +45,7 @@ import Prezi from "./Prezi";
 import Scribe from "./Scribe";
 import Spotify from "./Spotify";
 import Tldraw from "./Tldraw";
+import TopHire from "./TopHire";
 import Trello from "./Trello";
 import Typeform from "./Typeform";
 import Valtown from "./Valtown";
@@ -408,6 +409,12 @@ const embeds: EmbedDescriptor[] = [
     keywords: "google video",
     icon: <Img src="/images/youtube.png" alt="YouTube" />,
     component: YouTube,
+  }),
+  new EmbedDescriptor({
+    title: "TopHire Video",
+    keywords: "tophire video",
+    icon: <Img src="/images/tophire.png" alt="TopHire Video" />,
+    component: TopHire,
   }),
 ];
 
