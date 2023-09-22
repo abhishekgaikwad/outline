@@ -411,9 +411,9 @@ const embeds: EmbedDescriptor[] = [
     component: YouTube,
   }),
   new EmbedDescriptor({
-    title: "TopHire Video",
-    keywords: "tophire video",
-    icon: <Img src="/images/tophire.png" alt="TopHire Video" />,
+    title: "TopHire Audio/Video",
+    keywords: "tophire audio video",
+    icon: <Img src="/images/tophire.png" alt="TopHire Audio/Video" />,
     component: TopHire,
   }),
 ];
